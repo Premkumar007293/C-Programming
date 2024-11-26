@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+    int x;
+    int sum=0;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    sum=x%2;
+    if(x==0)
+    {
+        printf("Even Number.");
+    }
+    else
+    {
+        printf("Odd Number.");
+    }
+}
+
+
