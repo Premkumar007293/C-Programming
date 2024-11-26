@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main(){
+int r;
+printf("Enter radius:");
+scanf("%d",&r);
+int area,cir;
+area=r*4*r*3.14;
+cir=2*3.14*r;
+printf("%d is the area of the circle:",area);
+printf("%d is the circumference of the circle:",cir);
+}
+
