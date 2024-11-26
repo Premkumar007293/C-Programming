@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+    int x=5,y;
+    int sum=0;
+    printf("Enter the number of oranges:");
+    scanf("%d",&y);
+    sum=y/5;
+    printf("%d is the total number of glass of orange juice.",sum);
+}
