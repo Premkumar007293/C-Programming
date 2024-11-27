@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+    int num,Pow,dig,sum=0;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    printf("Enter the Power;");
+    scanf("%d",&Pow);
+    int temp=num;
+    while(temp>0)
+    {
+        dig=temp%10;
+        sum+=pow(dig,Pow);
+        temp/=10;
+    }
+    printf("The sum of the digits of %d raised to the power%d is:%d\n",num,Pow,sum);
+}
